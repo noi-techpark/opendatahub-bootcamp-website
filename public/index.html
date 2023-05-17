@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="testApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <h2>Hello World</h2>
+    <div ng-controller="TestListController" ng-init="init()">
+        <table class="table table-striped table-condensed">
+            <thead>
+                <th>Name</th>
+                <th>Location</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="data in datalist">
+                    <td>{{ data.Detail.en.Title }}</td>
+                    <td>{{ data.LocationInfo.MunicipalityInfo.Name.en }}</td>
+                </tr>
+            </tbody>
+    </div>
+  </body>
+</html>
+<script>
+
+ var app = angular.module('testApp', []);
+
+ app.controller('TestListController', ['$scope','$http', 
+ function($scope, $http) {
+        
+    $scope.datalist = [];
+
+    $scope.init = function(){
+        
+        $http({ method: 'GET', url: 'https://tourism.api.opendatahub.com/v1/ODHActivityPoi' })
+        .then(function (result) {
+                    $scope.datalist = result.data.Items;                                             
+                });
+    }; 
+    
+  }]);
+
+</script>
