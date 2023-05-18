@@ -10,6 +10,9 @@ Providing a search functionality by name.
 Adding a map view to the website  
 Incorporating additional web components from the store, such as weather.
 
+Challenge presentation:  
+https://bit.ly/OpenDataHub23
+
 ### Opendatahub Tourism Api
 https://tourism.api.opendatahub.com/v1  
   
