@@ -3,19 +3,23 @@
 ## About the project
 The scope of the website is to allow the user to search for points of interest 
 to then allow them to look up, through the use of a web component, the nearest 
-parking spaces.
+parking spaces. The web component to integrate will be in the [webcomponent store](https://webcomponents.opendatahub.testingmachine.eu/).
 ## Tech stack
 - HTML
 - CSS
 - JS
 - Bootstrap
 ## Repo structure
+The only relevant thing is that the static files have to be put in the `dist` folder so that the CI deployment will be done successfully.
+
 ## How to use
 Deployment is handled automatically through the use of a GitHub Action. More 
 specifically it will copy the content of the `dist` folder to an AWS S3 bucket 
-that will server the website at the link [here](https://webcomponents.opendatahub.testingmachine.eu/).
+that will serve the website at the link [here](https://webcomponents.opendatahub.testingmachine.eu/).
 ## License
+The license for this project can be found in the `LICENSE` file. It is the Affero GNU license.
 
+## Other
 Developing a basic website  
 - Creating a website that incorporates the web component developed by the web component team and based on the instructions provided by the documentation team
 - Displaying a list view of Points of Interest (POIs)
