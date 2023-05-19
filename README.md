@@ -30,9 +30,6 @@ https://github.com/noi-techpark/odh-docs/wiki/Common-parameters%2C-fields%2C-lan
 https://github.com/noi-techpark/odh-docs/wiki/Filter-ODHActivityPoi-by-Tags  
 https://github.com/noi-techpark/odh-docs/wiki/Using-rawfilter-and-rawsort-on-the-Tourism-Api
 
-### Hints
-Display only POIs with Images (Parameter hasimage)
-
 ### Webcomponent Store
 https://webcomponents.opendatahub.testingmachine.eu/
 
@@ -42,3 +39,17 @@ https://webcomponents.opendatahub.testingmachine.eu/webcomponent/tourism-detail
 ### Deployment on Website
 https://bootcamp.opendatahub.testingmachine.eu/
 
+### Hints
+Display only POIs with Images (Parameter hasimage)  
+https://tourism.api.opendatahub.com/v1/ODHActivityPoi?hasimage=true  
+
+Searching trough the ODHActivityPois
+https://tourism.api.opendatahub.com/v1/ODHActivityPoi?searchfilter=Test&language=en
+
+Getting all Tags to filter on 
+https://tourism.api.opendatahub.bz.it/v1/Tag?rawfilter=isnotnull(DisplayAsCategory)
+Filter on this Tags
+https://tourism.api.opendatahub.com/v1/ODHActivityPoi?tagfilter=or(horses,ruins)
+
+Reuse Detail Webcomponent
+https://webcomponents.opendatahub.com/webcomponent/tourism-detail
