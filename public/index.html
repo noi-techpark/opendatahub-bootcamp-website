@@ -1,14 +1,16 @@
 <!-- SPDX-FileCopyrightText: Copyright (C) 2023 NOI Techpark -->
 <!-- SPDX-License-Identifier: AGPL-3.0-or-later -->
 <!doctype html>
-<html ng-app="testApp">
+<html>
   <head>  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- <style type="text/css">
       #map { height: 300px;
               width: 300px;}
     </style> -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script> -->
+    <script src="https://cdn.webcomponents.opendatahub.bz.it/dist/e6c628d4-810b-489d-b8ec-1b33c8f025c6/odh-tourism-detail.min.js"></script>
+    <script src="https://cdn.webcomponents.opendatahub.testingmachine.eu/dist/b67362a5-a873-4ca4-a391-afe2f021da2c/odh-parking.js"></script>
   </head>
 
   <body onload="initializeApp()" style="padding: 25px;">
@@ -32,10 +34,10 @@
         </table>
       </div>
       <div class="col-sm-4" id="tourismComponent">
-        <script src="https://cdn.webcomponents.opendatahub.bz.it/dist/e6c628d4-810b-489d-b8ec-1b33c8f025c6/odh-tourism-detail.min.js"></script>
+        
       </div>
       <div class="col-sm-4" id="mapComponent">
-        <script src="https://cdn.webcomponents.opendatahub.testingmachine.eu/dist/b67362a5-a873-4ca4-a391-afe2f021da2c/odh-parking.js"></script>
+        
       </div>
   </div>  
   </body>

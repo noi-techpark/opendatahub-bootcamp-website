@@ -3,7 +3,7 @@ function initializeApp() {
     xmlHttp.open( "GET", 'https://tourism.api.opendatahub.com/v1/ODHActivityPoi?hasimage=true', false ); // false for synchronous request
     xmlHttp.send( null );
     var response = JSON.parse(xmlHttp.response);
-    console.trace("Response object:", response);
+    //console.trace("Response object:", response);
     
     xmlHttp.onreadystatechange = populateTable(response.Items);
 }
@@ -34,7 +34,7 @@ function searchInput() {
     xmlHttp.open( "GET", 'https://tourism.api.opendatahub.com/v1/ODHActivityPoi?hasimage=true&searchfilter=' + inputText + '&language=en', false ); // false for synchronous request
     xmlHttp.send( null );
     var response = JSON.parse(xmlHttp.response);
-    console.log("Response object:", response);
+    //console.log("Response object:", response);
 
     xmlHttp.onreadystatechange = populateTable(response.Items);
 }
