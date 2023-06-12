@@ -3,6 +3,6 @@ Upstream-Name: opendatahub-bootcamp-website
 Upstream-Contact: NOI Techpark <digital@noi.bz.it>
 Source: https://github.com/noi-techpark/opendatahub-bootcamp-website
 
-Files: .github/* .gitignore public/assets/*
+Files: .gitignore .github/* .pre-commit-config.yaml public/assets/*
 Copyright: NOI Techpark <digital@noi.bz.it>
 License: CC0-1.0
