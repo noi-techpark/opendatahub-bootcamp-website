@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 function initializeApp() {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", 'https://tourism.api.opendatahub.com/v1/ODHActivityPoi?hasimage=true', false ); // false for synchronous request

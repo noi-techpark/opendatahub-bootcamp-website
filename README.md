@@ -1,4 +1,10 @@
-<!-- SPDX-FileCopyrightText: Copyright (C) 2023 NOI Techpark -->
+<!--
+SPDX-FileCopyrightText: Copyright (C) 2023 NOI Techpark
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 <!-- SPDX-License-Identifier: AGPL-3.0-or-later -->
 
 # opendatahub-bootcamp-website

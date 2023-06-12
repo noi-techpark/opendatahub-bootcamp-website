@@ -1,4 +1,8 @@
-    //   fetch("https://tourism.api.opendatahub.com/v1/ODHActivityPoi?pagenumber=1&pagesize=100").then(function(response) {
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+//   fetch("https://tourism.api.opendatahub.com/v1/ODHActivityPoi?pagenumber=1&pagesize=100").then(function(response) {
     //     return response.json();
     //   }).then(function(data) {
     //       var summerIcon = L.icon({
