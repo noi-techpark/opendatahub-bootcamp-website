@@ -9,6 +9,8 @@ SPDX-License-Identifier: CC0-1.0
 
 # opendatahub-bootcamp-website
 
+![REUSE Compliance](https://github.com/noi-techpark/opendatahub-bootcamp-website/actions/workflows/reuse.yml/badge.svg)
+
 ## About the project
 The scope of the website is to allow the user to search for points of interest 
 to then allow them to look up, through the use of a web component, the nearest 
