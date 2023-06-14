@@ -93,7 +93,7 @@ Searching trough the ODHActivityPois
 https://tourism.api.opendatahub.com/v1/ODHActivityPoi?searchfilter=Test&language=en
 
 Getting all Tags to filter on 
-https://tourism.api.opendatahub.bz.it/v1/Tag?rawfilter=isnotnull(DisplayAsCategory)
+https://tourism.api.opendatahub.com/v1/Tag?rawfilter=isnotnull(DisplayAsCategory)
 Filter on this Tags
 https://tourism.api.opendatahub.com/v1/ODHActivityPoi?tagfilter=or(horses,ruins)
 
